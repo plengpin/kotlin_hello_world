@@ -1,9 +1,9 @@
-fun main() {
-    var x = 3
-    println ("before the loop. x = $x.")
-    while (x < 4) {
-        println("in the loop. x =$x.")
+fun main(){
+    var x = 1
+    while ( x < 3 ) {
+        print(if (x == 1 ) "yab" else "Dab")
+        print("ba")
         x = x + 1
     }
-    println ("after the loop.x = $x.")
+    if (x == 3 ) println ("do")
 }
