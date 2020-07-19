@@ -1,7 +1,9 @@
-fun main(){
-   var x = 3
-    val name = "cormoran"
-    x = x * 10
-    print ("x is $x.")
-    //this is a comment
+fun main() {
+    var x = 3
+    println ("before the loop. x = $x.")
+    while (x < 4) {
+        println("in the loop. x =$x.")
+        x = x + 1
+    }
+    println ("after the loop.x = $x.")
 }
